@@ -1,0 +1,27 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "This app will allow employers to track their employees and current tasks on hand.",
+  "main": "server.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.0.6",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bialoorlem/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bialoorlem/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/bialoorlem/employee-tracker#readme"
+}
